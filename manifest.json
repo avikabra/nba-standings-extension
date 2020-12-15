@@ -1,0 +1,16 @@
+{
+
+    "name": "NBA Standings Extension",
+    "description": "Simple, one-click extensions with updated standings from the 2020-2021 NBA season",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "icons": {
+        "64": "bball64.png",
+        "128": "bball128.png"
+    },
+    "options_page": "./options.html",
+    "browser_action": {
+        "default_popup": "./popup.html"
+    }
+
+}

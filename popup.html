@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>nba standings extension</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body style="width: 300px">
+    <div id="logoH">
+
+    </div>
+    <h1>NBA 2020-21 Season Standings</h1>
+    <div class="dropdown">
+      <button class="dropbtn">Conference</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a id="east">Eastern</a>
+        <a id="west">Western</a>
+      </div>
+    </div>
+    <div id="container">
+        <table id="standings">
+          <tr id="headers">
+            <td class="extreme" id="l">
+              <h5>Standing</h3>
+            </td>
+            <td>
+              <h5>Team Name</h3>
+            </td>
+            <td>
+              <h5>Record</h3>
+            </td>
+            <td>
+              <h5>Games Behind</h3>
+            </td>
+            <td class="extreme" id="r">
+              <h5>Streak</h3>
+            </td>
+          </tr>
+        </table>
+    </div>
+    <script src="getData.js"></script>
+    <script type="text/javascript" src="dropdown.js"></script>
+  </body>
+</html>
